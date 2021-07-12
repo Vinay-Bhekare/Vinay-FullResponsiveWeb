@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigation{
+    font-family: cursive;
+    /* margin-top:55px; */
+    padding: 9px;
+    height: 74px;
+    /* background-color: rgba(228, 134, 11, 0.5); */
+    background-color: rgb(229 151 48 / 50%);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size: 40px;
+    display: flex;
+}
+.nav-left span{
+    padding-bottom: 15px;
+}
+.nav-left span img{
+    height: 70px;
+    width: 63px;
+    margin-top: 15px;
+}
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    font-size:20px;
+    margin: 0 38px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0px 14px;
+    font-family:  Helvetica;
+    /* transition: all 1s ease-in-out; */
+}
+/* .nav-left ul li:hover{
+    color:var(--main-bg-color)
+    background-color: rgb(14, 0, 0);
+} */
+
+.nav-left ul li a{
+    color: black;
+    text-decoration: none;
+    /* transition: all 1s ease-in-out; */
+}
+.nav-left ul li a:hover{
+    font-weight: bolder;
+    /* color:var(--main-bg-color); */
+    color: rgb(28, 190, 63);
+    background-color: rgb(14, 0, 0);
+}
+
+
+.content{
+    /* height: 200px; */
+    height: 100%;
+    /* background-color:rgb(200, 200, 243); */
+    display: flex;
+    margin: 9px;
+    align-items: center;
+    padding: 0px 0px;
+}
+.content::after{
+    content: "";
+    /* background-image: url(/img/Tulips.jpg); */
+    /* background: url('/img/Tulips.jpg') no-repeat center center/cover;  */
+    background: url('/img/Tulips.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 83%;
+    height: 260px;
+    opacity: 1;
+    margin: -9px;
+    z-index: -1;
+}
+.content-left{
+    font-family: sans-serif;
+    padding: 50px;
+    
+}
+.content-left h1{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.content-left p{
+    font-size: 0.9rem;
+    font-family: cursive;
+}
+
+.content-right{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-right img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 200px;
+    padding: 0px 0px;
+    margin: 31px;
+}
+
+.home-articles{
+    padding: 9px;
+    background-color:rgb(238, 86, 86, 0.5) ;
+    /* margin-top: 24px; */
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    /* background-color: rgb(236, 85, 85); */
+    top: 15px;
+    right: 5px;
+    font-size: 15px;
+}
+.year-box div{
+    margin: 12px 0px;
+}
+.home-article{
+    display: flex;
+    margin: 21px;
+    
+}
+.home-article img{
+    /* width: 300px; */
+    width: 250px;
+    
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    /* color: var(--main-bg-color); */
+    color: rgb(4, 4, 240);
+}
+
+
+
+
+.footer{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 9px 83px;
+    
+
+}
+.footer a{
+    color:white;
+    /* text-decoration: none; */
+}

@@ -1,0 +1,152 @@
+@media screen and  (max-width:1200px){
+    .navigation{    
+        flex-direction: column;
+        margin-bottom: 51x;
+        height: 115px;
+        margin: 0px 32px;
+
+    }
+    .nav-left{
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-left span img {
+        height: 40px;
+        width: 40px;
+        margin-top: 0px;
+    }
+    .content-right img{
+        display: none;
+    }
+    .content-left {
+        ffont-family: sans-serif;
+        padding: 0px;
+    }
+    .content {
+        display: flex;
+        font-size: 15px;
+        height: 45vh;
+        margin-bottom: -33px;
+        margin-top: -33px;
+    }
+    .content::after {
+        content: "";
+        background-image: url(/img/Lighthouse.jpg);
+        position: absolute;
+        width: 83%;
+        height: 260px;
+        opacity: 1;
+        margin: -9px;
+        z-index: -1;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article-img{
+      text-align: center;
+      width: 70vw;
+    }
+    .year-box {
+        top: 39px;
+        left: 43vw;
+        font-size: 12px;
+        display: flex;
+        width: 170px;
+    }
+    .year-box div{
+        margin: 3px 3px;
+        padding: 0;
+    }
+    .form-input {
+        width: 50%;
+    }
+
+    .contact-content::after {
+        content: "";
+        background-image: url(/img/Tulips.jpg);
+        position: absolute;
+        width: 87vw;
+        height: 550px;
+        opacity: 1;
+        margin: 2px -20px;
+        z-index: -1;
+    }
+
+
+
+
+
+    .contact-content {
+        height: 74vh;
+        /* background-color: rgb(200, 200, 243); */
+        margin: 24px;
+        margin-bottom: -7px;
+        padding: 0px 0px;
+        position: relative;
+        overflow: hidden;
+        margin-top: 0px;
+        width: 85vw;
+        right: -9px;
+    }
+    .contact-content::after {
+        width: 88vw;
+    }
+
+    .max-width-1 {
+        width: 79vw;
+    }
+    .footer{
+        margin: 5px 35px
+    }
+    .footer-contact {
+        width: 83vw;
+        margin: 9px 33px;
+    }
+    .font1 {
+        font-family:Arial;
+    }
+    .form-box input, textarea {
+        width: 51vw;
+        padding: 8px 0px;
+        font-size: 17px;
+        border: 2px solid rgb(228, 7, 7);
+        border-radius: 11px;
+        margin-left: -16px;
+        margin-top: 5px;
+        align-items: center;
+    }
+    .contact-content h2{
+        font-size: 20px;
+        margin: 12px -16px;
+    }
+    .btn-submit{ 
+        padding: 5px 10px;
+        padding-top: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-family: cursive;
+        font-size: 15px;
+        cursor: pointer;
+        /* transition: all 1s ease-in-out; */
+        margin: 15px 50px;
+    }
+    .btn-submit:hover{
+        color: rgb(28, 190, 63);
+        background-color: rgb(14, 0, 0);
+    }
+    .post-img img {
+        width: 83%;
+        margin: 0px 33px;
+        height: 240px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .max-width-2 {
+        width: 80vw;
+    }
+    
+
+}
+    

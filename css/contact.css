@@ -1,0 +1,38 @@
+.contact-content{
+    height: 78vh;
+    /* background-color: rgb(200, 200, 243); */
+    margin: 32px;
+    margin-bottom: -7px;
+    padding: 0px 0px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    width: 92vw;
+    right: -9px;
+}
+.contact-content::after{
+    content: "";
+    /* background-image: url(/img/Tulips.jpg); */
+    background-image: url(/img/2012_chevrolet_camaro-1920x1200.jpg); 
+    position: absolute;
+    width: 89%;
+    height: 558px;
+    opacity: 1;
+    margin: 3px 52px;
+    z-index: -1;
+    top: 0px;
+}
+
+.footer-contact{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 9px 93px;
+}
+.footer-contact a{
+    color: white;
+}
